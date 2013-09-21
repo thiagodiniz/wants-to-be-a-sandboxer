@@ -10,6 +10,16 @@ body {
     margin:auto;
 }
 
+.title {
+    margin-bottom: 60px;
+        
+}
+
+.container > p {
+    font-size: 14px;
+    text-align:center;
+}
+
 .jumbotron { 
     background-color: #DDD;
     height: 350px;
