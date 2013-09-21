@@ -13,6 +13,8 @@ body {
 .jumbotron { 
     background-color: #DDD;
     height: 350px;
+    background-image: url(../thiago-california.jpg);
+    background-position: -204px -350px;
 }
 
 .header {
