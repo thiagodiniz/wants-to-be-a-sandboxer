@@ -15,6 +15,11 @@ body {
     height: 350px;
     background-image: url(../thiago-california.jpg);
     background-position: -204px -350px;
+    filter: blur(1px); 
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px); 
+    -ms-filter: blur(1px);
 }
 
 .header {
@@ -77,10 +82,20 @@ text-align: center;
 }
 
 .card .board {
-    padding-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 2px;
     background-color: #DDD;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.card .board span {
+    display:block ;
+    color: #a9a9a9;
+}
+
+.card .board h3 {
+    margin: 10px 20px;
 }
 
 .card p {
